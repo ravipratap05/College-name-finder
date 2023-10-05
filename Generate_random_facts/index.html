@@ -1,0 +1,44 @@
+<!-- Generate the random facts with the help of axios -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Working</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- include the cdn link of axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+    <!-- header section -->
+    <div class="header">
+        <u><h1><span>API Working</span></h1></u><br/>
+    </div>
+
+    <!-- first section show the random facts about the cats from open api -->
+    <div class="section">
+      <h2>Generate interesting facts:</h2>
+      <p>You can generate random facts about cats by click on button:</p>
+      <button>Show new facts</button>
+      <i><p id="result"></p></i>
+    </div>
+
+    <!-- second section show the college list from open api from git -->
+    <div class="section2">
+      <h2>Generate the college names:</h2>
+      <p>
+        You can found the colleges and university in india
+        by submit the state name below:
+      </p>
+      <label for="state">Please enter State name here:</label><br><br>
+      <input type="text" id="state" placeholder="Country name"> &nbsp;
+      <button id="btn">Show</button>
+      <i><ul id="list"></ul></i>
+    </div>
+
+    <!-- include the javascript file -->
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0% 10% 5% 10%;
+    background-color: #aac4da;
+}
+
+.section, .section2{
+    border: solid black;
+    background-color: #d8d797b7;
+    height: 100%;
+    margin: 0 0 2rem 0;
+    padding: 2rem 5rem 2rem 5rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+
+#result{
+    border: solid rgb(46, 43, 43);
+    padding: 1rem;
+    background-color: #a2c7c3;
+}
+
+button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+input{
+    height: 1.8rem;
+    border-radius: 0.4rem;
+    background-color: #a2c7c3;
+}
+
+.header{
+    text-align: center;
+}
